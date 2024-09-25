@@ -5,15 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy" : "yarn run build",
-"deploy" : "gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
